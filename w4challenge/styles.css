@@ -1,0 +1,11 @@
+.center{
+    text-align: center;
+    font-size: 50px;
+}
+#header{
+    font-style: italic;
+     
+}
+header:hover{
+    color: black;
+}
