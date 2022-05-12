@@ -13,3 +13,6 @@ header:hover{
 body{
     background-color: fuchsia;
 }
+img {
+    scale: 40%;
+}
