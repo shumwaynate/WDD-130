@@ -37,12 +37,15 @@ header nav{
     align-content: center;
     justify-items: center;
     align-items: center;
+    border-spacing: 20px;
+    
 }
 nav a{
     text-align: center;
     color: white;
     text-decoration: none;
     padding: 30px;
+    font-size: 1em;
 }
 nav a:hover{
     background-color:#00a8e8;
