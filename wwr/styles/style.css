@@ -31,8 +31,12 @@ header{
     grid-template-columns: 150px auto;
 }
 header nav{
-    display: flexbox;
+    display: flex;
     justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 nav a{
     text-align: center;
