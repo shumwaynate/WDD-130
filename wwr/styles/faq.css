@@ -1,0 +1,110 @@
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background{
+    height:725px;
+    background: color white;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+header{
+    background-color:#007ea7;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    border-spacing: 20px;
+    
+}
+nav a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 1em;
+}
+nav a:hover{
+    background-color:#00a8e8;
+    color: whitesmoke;
+}
+body{
+    background-color:white;
+    font-family: "Roboto", Georgia, 'Times New Roman', Times, serif ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: #00a8e8 ;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center∂;
+}
+footer h3{
+    color: #003559;
+}
+footer a{
+    color: #003559;
+    text-decoration: none;
+}
+footer a:hover{
+    color: whitesmoke;
+}
+footer .social img{
+    padding-top: 15px;
+}
+
+.home-title{
+    color: #00a8e8;
+    font-family: "Radio Canada", Georgia, 'Times New Roman', Times, serif ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.home-grid{
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+footer h3 a:hover{
+    text-decoration: underline;
+
+}
+.logo{
+    width: 80px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding:35px
+}
+#logo_link{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+main section img{
+    box-sizing: border-box;
+}
