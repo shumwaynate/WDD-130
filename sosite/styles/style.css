@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
+#content{
+    display:block;
+    margin: auto;
+    max-width: 100%;
+}
+header{
+    background: #009fb7ff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width:100%;
+    margin:0 auto;
+    
+    text-align: center;
+    align-items: center;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+nav a:nth-of-type(3){
+    grid-column: 1/3;
+}
+
+header a:nth-of-type(1){
+    margin-right: 20px;
+}
+header nav a{
+    background: white;
+    margin: 20px;
+    padding-bottom:5px;
+    min-width: 150px;
+    max-width:250px;
+    justify-self: center;
+    padding: 10px;
+}
+.logo{
+    width: 100%;
+    background: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+main{
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
+    display: block;
+}
+#first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin-bottom: 20px;
+}
+section1 h1{
+    font-family: 'Rock Salt';
+    grid-column: 1/3;
+    text-align: center;
+    border: 5px solid #0a2463ff;
+}
+#mainContent p{
+    background: white;
+    padding:5px;
+    border: 3px solid #0a2463ff;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+.pic1{
+    max-width: fit-content;
+    align-self: center;
+    margin-left: 20px;
+}
+#second{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    background: #009fb7ff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section2 nav{
+    display: grid;
+    grid-template-rows: 1fr 50px 50px;
+    grid-template-columns: 1fr;
+    border: 3px solid #0a2463ff;
+    margin: 20px;
+    justify-items: center ;
+    
+}
+section2 h3{
+    text-align: center;
+    background: white;
+    border: 3px solid #0a2463ff;
+    max-width: 50%;
+    font-size: 100%;
+    align-self: center;
+    padding: 10px;
+}
+#second nav p{
+    border: none;
+    background: none;
+}
+h3{
+    text-align: center;
+    background: white;
+    border: 3px solid #0a2463ff;
+    align-self: center;
+    max-width: 250px;
+}
+
+#third{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 1fr;
+    margin-bottom: 20px;
+}
+.pic2{
+    grid-row: 1/3;
+    grid-column: 1/2;
+    max-width: 50%;
+    justify-self: center;
+    align-self: center;
+}
+section3 p, section3 h3{
+    grid-column: 2/3;
+    justify-self: center;
+}
+footer{
+    background: #009fb7ff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    width:100%;
+    padding:10px;
+    
+    text-align: center;
+    align-items: center;
+}
