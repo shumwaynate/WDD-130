@@ -48,6 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   text-align: center;
 }
+h4:nth-of-type(2){
+  font-family: 'Roboto';
+}
 hr {
   height: 3px;
   margin: 35px 0;
