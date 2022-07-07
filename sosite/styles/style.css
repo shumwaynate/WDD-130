@@ -86,7 +86,7 @@ section1 h1{
 
 section2 nav{
     display: grid;
-    grid-template-rows: 1fr 50px 50px;
+    grid-template-rows: 1fr 75px 90px;
     grid-template-columns: 1fr;
     border: 3px solid #0a2463ff;
     margin: 20px;
@@ -95,9 +95,6 @@ section2 nav{
 }
 section2 h3{
     text-align: center;
-    background: white;
-    border: 3px solid #0a2463ff;
-    max-width: 50%;
     font-size: 100%;
     align-self: center;
     padding: 10px;
@@ -106,19 +103,18 @@ section2 h3{
     border: none;
     background: none;
 }
-h3{
+section3 h3{
     text-align: center;
-    background: white;
-    border: 3px solid #0a2463ff;
     align-self: center;
-    max-width: 250px;
+    margin-bottom: 30px;
+    /* max-width: 250px; */
 }
 
 #third{
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 1fr;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background:#8791b1;
 }
 .pic2{
@@ -132,6 +128,8 @@ section3 p, section3 h3{
     grid-column: 2/3;
     justify-self: center;
 }
+
+
 footer{
     background: #009fb7ff;
     display: grid;
