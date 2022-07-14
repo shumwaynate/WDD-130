@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/volunteer.css">
     <title>Special Olympics | Volunteering</title>
+    <style>
+        .button {
+            padding: 15px 25px;
+            font-size: 15px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: white;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #0a2463ff;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+
+        .button:hover {background-color: #3e8e41}
+
+        .button:active {
+            background-color: #3e8e41;
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
 </head>
 <body>
     <nav id= "content">
@@ -30,8 +54,8 @@
             <section2 id="second">
                 <nav1>
                     <div id="volunteer">
-                        <p>If you want to be a volunteer, get in touch with Special Olympics near you.</p>
-                        <h3><a href="https://www.specialolympics.org/programs">Volunteer Signup</a></h3>
+                        <p id="inner" style="border:none;" >If you want to be a volunteer, get in touch with Special Olympics near you.</p>
+                        <h3 class="button"><a href="https://www.specialolympics.org/programs">Volunteer Signup</a></h3>
                     </div>
                     <p>Volunteers include the local coach who works with athletes many times a week. Or the people who help organize and plan our World Games every two years. Or the photographers who take the most amazing pictures of our athletes in action. All around the world, Special Olympics training, competitions and other events are happening 365 days a year. There is always something interesting to do!</p>
                 </nav1>
